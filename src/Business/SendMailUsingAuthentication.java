@@ -17,7 +17,7 @@ public class SendMailUsingAuthentication {
 
     private static final String SMTP_HOST_NAME = "smtp.gmail.com";  // for google                
     public static final String SMTP_AUTH_USER = "PWO.USapproval@gmail.com";// Username                        
-    private static final String SMTP_AUTH_PWD = "PWOAdmin@123";          // Password                     
+    private static final String SMTP_AUTH_PWD = "";          // Password                     
 
     // Add List of Email address to who email needs to be sent to                                               
     public void postMail(String recipients[], String subject,
